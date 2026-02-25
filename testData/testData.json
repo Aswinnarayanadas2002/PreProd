@@ -1,0 +1,22 @@
+[
+        {
+            "valid_username" : "rahulshettyacademy",
+            "valid_password" : "learning",
+            "invalid_username" : "mano",
+            "invalid_password" : "123",
+            "role" : "Student", 
+            "products" : ["iphone X", "Blackberry"],
+            "firstThreeLettersOfCountry" : "Ind",
+            "fullCountryName" : "India"
+        },
+        {            
+            "valid_username" : "rahulshettyacademy",
+            "valid_password" : "learning",
+            "invalid_username" : "bharathi",
+            "invalid_password" : "456",
+            "role" : "Teacher", 
+            "products" : ["Nokia Edge", "Samsung Note 8", "iphone X"],
+            "firstThreeLettersOfCountry" : "lan",
+            "fullCountryName" : "Iceland"
+        }
+    ]
