@@ -28,7 +28,6 @@
     //Add country in purchase page and purchase
     await purchasePage.selectCountry(data.firstThreeLettersOfCountry, data.fullCountryName);
     await purchasePage.acceptTermsAndConditions();
-    await purchasePage();
-
+    await purchasePage.purchase().finally();
  });
 });
